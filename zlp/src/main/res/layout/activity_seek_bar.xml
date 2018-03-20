@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34ded8"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.zlp.activity.SeekBarActivity">
+
+    <!--<com.example.zlp.wight.CircleSeekBar-->
+        <!--android:id="@+id/circle_seekbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:thumb="@drawable/ic_thumb"-->
+        <!--circle_seekbar:progress_background="#8"-->
+        <!--circle_seekbar:progress_front="#ff5555"-->
+        <!--circle_seekbar:progress_max="100"-->
+        <!--circle_seekbar:progress_text_color="@android:color/holo_green_light"-->
+        <!--circle_seekbar:progress_text_size="30dp"-->
+        <!--circle_seekbar:progress_text_stroke_width="4dp"-->
+        <!--circle_seekbar:progress_width="2dp"-->
+        <!--circle_seekbar:show_progress_text="true" />-->
+    <com.example.zlp.wight.ArcSeekBarParent
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:arcColor="#FFFFFF"
+        android:background="#4543bc8b"
+        app:arcWidth="3dp"
+        app:ballColor="#00ffff"
+        app:ballSize="30dp" />
+
+    <TextView
+        android:id="@+id/seek_bar_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="30sp" />
+</RelativeLayout>

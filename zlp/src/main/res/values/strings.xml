@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">zlp</string>
+
+    <string name="cardinal_north">N</string>
+    <string name="cardinal_east">E</string>
+    <string name="cardinal_south">S</string>
+    <string name="cardinal_west">W</string>
+
+
+    <string name="lqc_refresh_pull_label">下拉刷新</string>
+    <string name="lqc_refresh_release_label">松开后刷新</string>
+    <string name="lqc_refresh_refreshing_label">刷新\u2026</string>
+    <string name="lqc_refresh_footer_release_label">松开后加载</string>
+    <string name="lqc_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="lqc_refresh_footer_refreshing_label">加载中\u2026</string>
+
+    <string name="app_language">语言</string>
+</resources>

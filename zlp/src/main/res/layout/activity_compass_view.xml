@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <com.czp.library.ArcProgress
+        android:id="@+id/myProgress02"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        app:radius="150dp"
+        app:arcCapRound="true"
+        app:degree="120"
+        android:visibility="gone"
+        app:progressStyle="tick"
+        app:progressColor="#ffccaa"
+        app:unprogresColor="#112233"
+        android:progress="80"
+        app:tickWidth="5dp"
+        app:tickDensity="5" />
+    <com.example.zlp.wight.MyCustomView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <com.example.zlp.wight.CustomBinTuView
+        android:id="@+id/customBintuview"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.example.zlp.wight.Bezier
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.example.zlp.wight.BitmapShaderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+    <com.example.zlp.wight.CircleProgressView
+        android:id="@+id/circleProgressView"
+        android:layout_centerInParent="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/action_segment"
+        android:orderInCategory="100"
+        android:title="segment mode"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_interval"
+        android:orderInCategory="100"
+        android:title="interval mode"
+        app:showAsAction="never" />
+</menu>

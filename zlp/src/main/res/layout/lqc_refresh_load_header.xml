@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lqc_refresh_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="15dip"
+    android:paddingTop="10dip" >
+
+    <TextView
+        android:id="@+id/lqc_refresh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="下拉刷新"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#838383"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/lqc_refresh_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@id/lqc_refresh_text"
+        android:src="@mipmap/lqc_arrow_down"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/lqc_refresh_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@id/lqc_refresh_text"
+        android:indeterminate="true"
+        android:src="@drawable/lqc_refreshload"
+        android:visibility="gone" />
+
+</RelativeLayout>

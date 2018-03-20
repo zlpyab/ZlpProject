@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.zlp.activity.RoundAndCircleImageViewActivity"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.example.zlp.wight.ShapeImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:src="@mipmap/world_map"
+                    app:siv_shape="circle"/>
+
+                <com.example.zlp.wight.ShapeImageView
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@mipmap/world_map"
+                    app:siv_round_radius="25dp"
+                    app:siv_shape="rect"/>
+
+                <com.example.zlp.wight.ShapeImageView
+                    android:layout_width="80dp"
+                    android:layout_height="110dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@mipmap/world_map"
+                    app:siv_border_color="#ffffff"
+                    app:siv_border_size="0dp"
+                    app:siv_round_radius="15dp"
+                    app:siv_shape="oval"/>
+            </LinearLayout>
+
+            <com.example.zlp.wight.ShapeImageView
+                android:layout_width="220dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"
+                android:src="@mipmap/world_map"
+                app:siv_border_color="#ffffff"
+                app:siv_border_size="2dp"
+                app:siv_round_radius="15dp"
+                app:siv_shape="circle"/>
+
+            <com.example.zlp.wight.ShapeImageView
+                android:layout_width="220dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#000000"
+                android:src="@mipmap/world_map"
+                app:siv_border_color="#00ff00"
+                app:siv_border_size="3dp"
+                app:siv_round_radius="15dp"
+                app:siv_round_radius_leftBottom="0dp"
+                app:siv_round_radius_rightBottom="0dp"
+                app:siv_shape="rect"/>
+
+            <com.example.zlp.wight.ShapeImageView
+                android:layout_width="220dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/world_map"
+                app:siv_border_color="#ff0000"
+                app:siv_border_size="5dp"
+                app:siv_round_radius="15dp"
+                app:siv_shape="oval"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
